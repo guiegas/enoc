@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'BebasNeueRegular';
+    src: url('../fonts/BebasNeue-webfont.eot');
+    src: url('../fonts/BebasNeue-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/BebasNeue-webfont.woff') format('woff'),
+         url('../fonts/BebasNeue-webfont.ttf') format('truetype'),
+         url('../fonts/BebasNeue-webfont.svg#BebasNeueRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+	background: #000;
+}
+
+.main {
+	padding: 11px 8px;
+}
+
+.padding-block {
+	padding: 5px;
+}
+
+.block {
+	transition: all 0.3s ease-out;
+	opacity: 0.8;
+	height: 156px;
+}
+
+.logo {
+	background: #2FB1BE;
+	font-family: 'BebasNeueRegular','Arial Narrow',Arial,sans-serif;
+	
+	text-align: center;
+	color: #fff;
+}
+
+.logo:hover {
+	background: #fff;
+	color: #2FB1BE;
+}
+
+.logo p {
+	font-size: 32px;
+	font-weight: 300;
+}
+
+.facebook {
+	background: #43609C;
+	color: #FFFFFF;
+}
+
+.facebook:hover {
+	background: #FFFFFF;
+	color: #FFFFFF;
+}
