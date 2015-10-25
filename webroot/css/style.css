@@ -14,11 +14,11 @@ body {
 }
 
 .main {
-	padding: 11px 8px;
+	padding: 13px 11px;
 }
 
 .padding-block {
-	padding: 5px;
+	padding: 7px;
 }
 
 .block {
@@ -30,9 +30,8 @@ body {
 .logo {
 	background: #2FB1BE;
 	font-family: 'BebasNeueRegular','Arial Narrow',Arial,sans-serif;
-	
-	text-align: center;
 	color: #fff;
+	padding: 0px;
 }
 
 .logo:hover {
@@ -40,17 +39,28 @@ body {
 	color: #2FB1BE;
 }
 
-.logo p {
-	font-size: 32px;
+.logo img {
+	display: block;
+	float: left;
+	opacity: 0.9;
+}
+
+.logo .name {
+	margin-top: 20px;
+	text-align: center;
+	font-size: 28px;
 	font-weight: 300;
 }
 
 .facebook {
 	background: #43609C;
 	color: #FFFFFF;
+	text-align: center;
+	font-size: 48px;
+	padding: 46px 0px;
 }
 
 .facebook:hover {
 	background: #FFFFFF;
-	color: #FFFFFF;
+	color: #43609C;
 }

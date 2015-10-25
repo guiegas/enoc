@@ -7,6 +7,7 @@
         <title><?= $this->fetch('title') ?></title>
         <link href="css/bootstrap.min.css" rel="stylesheet">
         <link href="css/style.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
         <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
         <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
@@ -17,14 +18,20 @@
         <div class="main">
             <div class="col-md-6 padding-block">
                 <div class="col-lg-12 logo block">
-                    <p>
-                        Guilherme Egas [Enoc]
-                    </p>
+                    <img src="img/gui-egas.jpg" alt="Guilherme Enoc Egas de Carvalho">
+                    <div class="name">
+                        Guilherme Enoc <span class="hidden-xs">Egas de Carvalho</span>
+                    </div>
+                    <div class="social-links">
+                        <a href="http://fb.com/guiegas"><i class="fa fa-facebook"></i></a>
+                        <a href="https://github.com/guiegas"><i class="fa fa-github"></i></a>
+                    </div>
+
                 </div>
             </div>
             <div class="col-md-3 padding-block">
                 <div class="col-lg-12 block facebook">
-                    Facebook
+                    <i class="fa fa-facebook"></i>
                 </div>
             </div>
             <div class="col-md-3 padding-block">
